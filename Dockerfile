@@ -16,6 +16,8 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4F4EA0AAE5267A6C &&
         php-redis \
         php5.6-mysql \
         php5.6-xml \
+        php5.6-mbstring \
+        php5.6-soap \
         php-xdebug && \
     phpdismod -v 5.6 xdebug
 
